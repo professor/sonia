@@ -10,9 +10,11 @@
 	<style type="text/css">
 		body {
   		margin-top: 1.0em;
-  		background-color: #f89438;
-		  font-family: "Helvetica,Arial,FreeSans";
-  		color: #000000;
+  		background-color: black;
+        color: #EAEAEA;
+        font-size: 16px;
+        font-family: HelveticaNeue-Light, 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        font-weight: 300;
     }
     #container {
       margin: 0 auto;
@@ -52,16 +54,28 @@
       Awesome Office Dashboard
     </div>
 
-    <p>Sonia allows you to set up a dashboard with information that is important to you. Think Panic's Status Board.
+    <h2>What is Sonia?</h2>
 
-At the moment, Sonia comes with Campfire, Foursquare, Github, Icinga, RSS, TfL, Twitter and Yahoo! Weather widgets.</p><h2>Dependencies</h2>
-<p>* Ruby 1.8.7, preferably 1.9.1
-* bundler gem</p>
+    <p><img src="http://layer22.com/images/screenshot.png" alt="Sonia" /></p>
+
+    <p>Sonia allows you to set up a dashboard with information that is important to you. Think <a href="http://www.panic.com/blog/2010/03/the-panic-status-board/">Panic's Status Board</a>.</p>
+
+    <p>At the moment, Sonia comes with <a href="http://campfirenow.com/">Campfire</a>, <a href="http://foursquare.com/">Foursquare</a>, <a href="http://github.com/">Github</a>, <a href="http://www.icinga.org/">Icinga</a>, RSS, <a href="http://www.tfl.gov.uk/">TfL</a>, <a href="http://www.twitter.com/">Twitter</a> and <a href="http://weather.yahoo.com/">Yahoo! Weather</a> widgets.</p>
+
+    <h2>BYOW</h2>
+
+    <p>Bring Your Own Widgets! It's so easy to create your own widgets! Have a look at <a href="http://github.com/pusewicz/sonia/tree/master/widgets/">example</a> ones.</p>
+    
+<ul>
+  <li>Ruby 1.8.7, preferably 1.9.1</li>
+  <li>bundler gem</li>
+</ul>
+
 <h2>Install</h2>
-<p>$ git clone http://github.com/pusewicz/sonia.git
+<pre>$ git clone http://github.com/pusewicz/sonia.git
 $ cd sonia
 $ bundle install
-$ ./bin/sonia start --config example/config.yml</p>
+$ ./bin/sonia start --config example/config.yml</pre>
 <h2>License</h2>
 <p>Copyright (c) 2009 Piotr Usewicz
 
@@ -84,29 +98,35 @@ LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION
 OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION
 WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 </p>
+
 <h2>Authors</h2>
-<p>Barry Mitchelson (barry.mitchelson@gmail.com)<br/>Luca Spiller (luca@stackednotion.com)<br/>Marcus Mitchell (marcusleemitchell@gmail.com)<br/>Piotr Usewicz (piotr@layer22.com)<br/>Victor Martinez (victor.martinez@migcan.com)<br/>William Roe (william.roe@migcan.com)<br/><br/>      </p>
+<p>
+  Piotr Usewicz
+  <br/>Victor Martinez
+  <br/>Barry Mitchelson
+  <br/>Luca Spiller
+  <br/>Marcus Mitchell
+  <br/>William Roe
+</p>
+
 <h2>Contact</h2>
-<p>Piotr Usewicz (piotr@layer22.com)<br/>      </p>
+<p>Piotr Usewicz (piotr@layer22.com)</p>
 
+<h2>Download</h2>
+<p>
+  You can download this project in either
+  <a href="http://github.com/pusewicz/sonia/zipball/master">zip</a> or
+  <a href="http://github.com/pusewicz/sonia/tarball/master">tar</a> formats.
+</p>
+<p>You can also clone the project with <a href="http://git-scm.com">Git</a>
+  by running:
+  <pre>$ git clone git://github.com/pusewicz/sonia</pre>
+</p>
 
-    <h2>Download</h2>
-    <p>
-      You can download this project in either
-      <a href="http://github.com/pusewicz/sonia/zipball/master">zip</a> or
-      <a href="http://github.com/pusewicz/sonia/tarball/master">tar</a> formats.
-    </p>
-    <p>You can also clone the project with <a href="http://git-scm.com">Git</a>
-      by running:
-      <pre>$ git clone git://github.com/pusewicz/sonia</pre>
-    </p>
+<div class="footer">
+  get the source code on GitHub : <a href="http://github.com/pusewicz/sonia">pusewicz/sonia</a>
+</div>
 
-    <div class="footer">
-      get the source code on GitHub : <a href="http://github.com/pusewicz/sonia">pusewicz/sonia</a>
-    </div>
-
-  </div>
-
-  
+</div>
 </body>
 </html>
