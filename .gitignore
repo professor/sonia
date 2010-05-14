@@ -2,3 +2,5 @@ example/
 vendor/
 .DS_Store
 .bundle/
+.yardoc
+doc
